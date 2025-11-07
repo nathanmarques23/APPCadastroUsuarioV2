@@ -1,6 +1,4 @@
-{/* NATHAN MARQUES DO NASCIMENTO E VITÓRIA EUFLOSINO SILVA*/ }
-
-
+/* NATHAN MARQUES DO NASCIMENTO */ 
 import React, { useState } from 'react';
 import { Alert, Button, Image, StyleSheet, Text, TextInput, View } from 'react-native';
 
@@ -93,6 +91,7 @@ const styles = StyleSheet.create({
     color: '#ffffff',
   },
   input: {
+    width: '50%', 
     backgroundColor: '#ffffff',
     borderWidth: 1,
     borderColor: '#ccc',
